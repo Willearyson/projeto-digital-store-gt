@@ -1,0 +1,26 @@
+fieldset{
+    border: none;
+    margin-bottom: 10px;
+}
+fieldset legend{
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+
+}
+input {
+    width: 13px;
+    margin-right: 7px;
+    accent-color: var(--primary);
+    
+}
+fieldset div label{
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: var(--dark-gray-2);
+}

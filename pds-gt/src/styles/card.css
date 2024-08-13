@@ -1,0 +1,51 @@
+*{
+    text-decoration: none;
+   
+}
+.card-area{
+    width: 281px;
+    height: 439px;
+    margin-bottom: 15px;
+}
+.card-img{
+    width: 100%;
+    height: 60%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+    
+}
+.card-img img{
+    width: 76%;
+    transform: rotate(-30deg);
+    
+}
+.card-category{
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--light-gray);
+    margin-bottom: 7px;
+}
+.card-name-product{
+    font-size: 24px;
+    font-weight: 400;
+    columns: var(--dark-gray-2);
+    letter-spacing: 0.75px;
+    margin-bottom: 7px;
+}
+.card-price-area{
+    display: flex;
+}
+.price-product{
+    margin-right: 5px;
+    color: var(--light-gray);
+    text-decoration: line-through;
+    font-weight: 700;
+}
+.price-sale{
+    color: var(--dark-gray);
+    font-weight: 700;
+}

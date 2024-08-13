@@ -1,0 +1,31 @@
+.cart-resume-area{
+    background-color: white;
+    width: 68%;
+    padding: 20px;
+}
+.cart-resume-titles{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  1px solid #000;
+    margin-bottom: 20px;
+}
+.quant-unit-total{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cart-about{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.cart-about img{
+    width: 100px;
+    background-color: #e2e3ff;
+   
+}
